@@ -13,9 +13,9 @@ const ProjectCard = ({ src, title, description }: Props) => {
       <Image
         src={src}
         alt={title}
-        width={1000} // Keep your original settings
-        height={1000} // Keep your original settings
-        className="w-[300px] h-[200px] object-cover" // Adjusted className for equal sizing
+        width={1000}
+        height={1000}
+        className="w-full object-contain"
       />
 
       <div className="relative p-4">
