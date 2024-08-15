@@ -45,7 +45,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-        I'm a third-year MUN student, cloud developer, and full stack developer. Check out my projects and skills.
+        I'm a third-year MUN student with expertise in cloud development and full stack development.
 
         </motion.p>
         <motion.a
