@@ -1,12 +1,16 @@
 {
+  "homepage": "https://7benny.github.io/personal-portfolio",
   "name": "spaceportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
