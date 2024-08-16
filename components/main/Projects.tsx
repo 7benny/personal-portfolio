@@ -13,18 +13,18 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Interstellar themed Portfolio"
+          description="Exploring the Cosmos: A Journey Through Space, Interstellar Dreams, and Tech Innovation with Typescript, Three.js, Tailwind CSS, AWS Amplify"
         />
         <ProjectCard
           src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Product Inventory Fullstack App with AWS"
+          description="Building a Full-Stack Web App: Next.js Frontend, Node.js Backend, and AWS Deployment with Tailwind, Redux Toolkit, Prisma, and AWS Services"
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="HooBank a UI\UX Business App"
+          description="Crafting a Real-World Product: A UI/UX-Designed App with React and Tailwind CSS, Merging Business Insight with Web Design and JavaScript Skills"
         />
       </div>
     </div>
